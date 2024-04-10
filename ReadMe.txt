@@ -1,66 +1,72 @@
-  Facial Recognition Based Attendance System
-  
-  The project is entitled a Facial recognition-based attendance system. This project had been
-developed to replace the current manual student attendance management system with an
-automated and efficient attendance tracking system.
-Facial Recognition Based Attendance System is a machine learning-based system that handles
-and tracks the student attendance system using the web application and deep learning
-algorithms/models. Some of the main components of the system are recognizing the Student
-Face and marking attendance of the recognized face. We have employed Deep Learning Models
-which is the state of the art for Image Processing and Django Python Server-Side framework
-for facial recognition and management purpose. We have utilized VGG-16 with transfer
-learning for face recognition, VGG16 is a convolutional neural network model which achieved
-92.7% top-5 test accuracy in ImageNet Dataset, MTCNN for face detection which can learn
-multiple tasks at the same time, thus supporting the simultaneous detection of multiple faces.
-This Facial recognition-based Attendance system tracks the attendance of the system using
-both AI and form-based approaches and it is a real-time face recognition system that is capable
-of identifying or verifying a student from a video frame. We have used 240 images of three
-classes or students to train the model employing 20 - 80 approaches, 20% of the images for the
-model validation and 80% for training. 
+# Facial Recognition Based Attendance System
 
-The System has Four Users 
+The Facial Recognition Based Attendance System is a project developed to replace the current manual student attendance management system with an automated and efficient attendance tracking system. This system utilizes machine learning-based facial recognition technology to handle and track student attendance using a web application and deep learning algorithms/models.
 
- System Admin
- Head of Department
- Academic Staff
- Student
+## Components
+
+Some of the main components of the system include:
+- **Face Recognition:** Recognizing student faces for attendance marking.
+- **Deep Learning Models:** Utilizing state-of-the-art deep learning models for image processing, particularly VGG-16 with transfer learning for face recognition.
+- **Face Detection:** Employing MTCNN for face detection, capable of learning multiple tasks simultaneously, supporting the simultaneous detection of multiple faces.
+- **Real-time Recognition:** A real-time face recognition system capable of identifying or verifying a student from a video frame.
+- **Training Data:** Utilizing a dataset of 240 images of three classes or students, employing a 20-80 training approach with 20% of the images for model validation and 80% for training.
+
+## Users
+
+The system caters to four types of users:
+- **System Admin**
+- **Head of Department**
+- **Academic Staff**
+- **Student**
+
+### System Admin
+
+- Can log in and log out from the system.
+- Can update their profile.
+- Manages users’ information.
+- Manages departments’ and colleges’ information.
+- Assigns roles to users.
+- Uploads students' images.
+- Trains the model.
+- Initializes the attendance system.
+- Views the attendance status.
+
+### Head of Department
+
+- Can log in and log out from the system.
+- Can update their profile.
+- Views attendance status.
+- Manages courses’ information.
+- Registers students for specific courses.
+- Manages instructor assignments.
+- Sets up attendance rules for specific courses.
+- Sets up schedules for specific courses.
+
+### Instructor
+
+- Can log in and log out from the system.
+- Can update their profile.
+- Configures basic attendance settings.
+- Initiates attendance tracking.
+- Ceases attendance tracking.
+- Views attendance status.
+- Handles special case attendance.
+
+### Student
+
+- Can log in and log out from the system.
+- Can update their profile.
+- Can view the attendance status.
+- Can ask to leave and view leave status
 
 
-System Admin
 
- System Admin can log in to the system and log out from the system.
- System Admin can update his/her profile.
- System Admin can manage users’ information.
- System Admin can manage the departments’ and colleges’ information.
- System Admin can give the role to the users.
- System Admin can upload the students' images.
- System Admin can train the model.
- System Admin can initialize the attendance system.
- System Admin can view the attendance status.
+## Contributors
 
-Head of Department
+- Abebayehu Alaro(https://www.linkedin.com/in/abebayehu-alaro)
 
- Head can log in to the system and log out from the system.
- Head can update his/her profile.
- Head can view attendance status.
- Head can manage courses’ information.
- Head can register students for the specific courses.
- The Head can manage the instructor’s assignment.
- The Head can set up the attendance rule for the specific course.
- The Head can set up the schedule for the specific course.
 
-Instructor
 
- The instructor can log in to the system and log out from the system.
- The instructor can update his/her profile.
- The instructor can configure the basic attendance settings.
- The instructor can initiate the attendance tracking.
- The instructor can cease the attendance tracking.
- The instructor can view the attendance status.
- The instructor can handle the special case attendance.
+## License
 
-Student
-
- Students can log in to the system and log out from the system.
- Students can update their profiles.
- Students can view the attendance status.
+This project is licensed under the [MIT License](link-to-license-file).
